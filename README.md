@@ -103,3 +103,29 @@ Built by a software engineering student learning JavaScript and Python while bui
 ## License
 
 For educational and portfolio use.
+
+
+
+
+## CLI Version (Python)
+
+Run the terminal version:
+
+```bash
+python cipherlab.py
+```
+
+### What it includes
+- Caesar cipher (encrypt, decrypt, brute force)
+- Password strength checker (6-criteria scoring)
+
+### Python concepts used
+| Concept | Used for |
+|---------|----------|
+| Functions | `caesar_cipher()`, `check_password()` |
+| `for` loop | Iterating through characters |
+| `while` loop | Keeping the menu running |
+| `ord()` / `chr()` | ASCII letter shifting |
+| Dictionary | Password criteria checklist |
+| f-strings | Embedding variables in output |
+| `input()` | Getting user input |
